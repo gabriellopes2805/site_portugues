@@ -1,0 +1,132 @@
+* {
+  margin: auto;
+  padding: 0%;
+}
+body{
+  background-image: url(fundo_body.jpg);
+  background-size: 350px;
+}
+
+header {
+  background-color: rgb(231, 247, 255);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+#Título {
+  font-style: italic;
+  font-size: x-large;
+  float: right;
+  white-space: nowrap;
+  position: fixed;
+  left: 435px;
+  top: 5px;
+}
+nav {
+  text-decoration: none;
+}
+#pt_logo {
+  width: 160px;
+  float: left;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
+#links li {
+  list-style-type: none;
+  position: relative;
+  left: 375px;
+  padding-top: 45px;
+  display: inline-block;
+}
+.links_itens {
+  color: rgb(0, 0, 0);
+  transition: all 0.5s;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 7px;
+}
+
+.links_itens:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+#des1 h1 {
+  text-align: center;
+  margin-top: 75px;
+}
+#des1 p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#des1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 145px;
+  margin-right: 145px;
+  background-color: rgb(255, 255, 255);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+.as {
+  color: crimson;
+  text-decoration: none;
+}
+.hs {
+  color: rgb(0, 0, 165);
+}
+.list_des {
+  padding-left: 10px;
+  list-style-type: none;
+}
+#ex1 {
+  padding-left: 100px;
+}
+#ex2 {
+  padding-left: 100px;
+}
+#des2 h1 {
+  text-align: center;
+  margin-top: 75px;
+}
+#des2 p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#des2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 145px;
+  margin-right: 145px;
+  background-color: rgb(250, 250, 250);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+.exemplinos {
+  color: rgb(0, 119, 255);
+}
+
+footer {
+  background-color: rgb(231, 247, 255);
+  text-align: center;
+}
+footer ul li a {
+  color: black;
+  text-decoration: none;
+}
+#footer-top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footer-top-a {
+  text-decoration: underline;
+}
+
+#footer-bottom {
+  padding-bottom: 10px;
+}
